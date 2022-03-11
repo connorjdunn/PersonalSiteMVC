@@ -2,16 +2,29 @@
     ViewBag.Title = "Contact";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<!--  CONTENT WRAPPER -->
+<div id="content-wrapper">
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+    <section class="container page-section">
+        <div class="row white">
+            <div class="fade-up col-md-offset-2 col-md-8 single-post-content">
+                <p>Merry alone do it burst me songs. Sorry equal charm joy her those folly ham. In they no is many both. Recommend new contented intention improving bed performed age. Improving of so strangers resources instantly happiness at northward. Danger nearer length oppose really add now either. But ask regret eat branch fat garden. Become am he except wishes. Past so at door we walk want such sang. Feeling colonel get her garrets own.</p>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+                <div id="message"></div>
+                <form method="post" action="sendemail.php" id="contactform">
+
+                    <input type="text" name="name" id="name" placeholder="Name" />
+
+                    <input type="text" name="email" id="email" placeholder="Email" />
+
+                    <input type="text" name="website" id="website" placeholder="Website" />
+
+                    <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+
+                    <input class="btn btn-success" type="submit" name="submit" value="Submit" />
+
+                </form>
+            </div>
+        </div><!-- row -->
+    </section>
+</div>

@@ -1,31 +1,165 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!--  CONTENT WRAPPER -->
+<!-- About Me -->
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<body>
+
+    <!--  CONTENT WRAPPER -->
+    <div id="headerwrap" name="home" class="fullheight">
+        <header class="clearfix fullheight">
+            <div class="vertical-center">
+                <p class="animated slideInLeft">Let Me Help You Create Something Awesome.</p>
+
+                <a href="#about" class="btn homebtn smoothScroll">Learn More <i class="el-icon-chevron-down homeicon"></i></a>
+            </div>
+        </header>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+
+    <!-- About Me -->
+
+    <div id="content-wrapper">
+
+        <section id="about" class="container page-section">
+            <div class="row white">
+                <h1 class="fade-down centered section-title">A LITTLE ABOUT ME</h1>
+                <hr>
+                <div class="fade-up col-md-12">
+                    <p>Hi I'm Connor, a Full Stack Developer within the .Net stack.  Before transitioning into development, I worked in labor and customer service roles but knew I wanted something more fulfilling. A co-worker showed me a  mobile app he was working on and that immediately sparked my interest. After doing some research I decided to attend Centriq's Full Stack Web Developer Course,  where I learned this was the career I'd been looking for. While attending Centriq and juggling work, I found a passion for front end development and design working with JavaScript. Working with my class mates to meet clients standards and deadlines was an experience I found extremely rewarding. I'd love to connect with you here or on my person site where you can see some of the projects I worked on while attending Centriq as well as a few personal projects www.fountaincitydev.com. I’d love to connect with you on linked in, or on my personal site to discuss if I’d be a good fit for your team. </p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Portfolio Projects -->
+
+        <section id="portfolio" class="page-section nopaddingbottom">
+            <div class="white">
+                <h1 class="fade-down centered section-title">PROJECTS</h1>
+                <hr class="fade-down">
+            </div>
+            <div>
+                <ul id="portfolio-categories" class="filter clearfix fade-down">
+                    <li><a href="#" class="active btn btn-success" data-filter="*">All</a></li>
+                    <li><a href="#" class="btn btn-success" data-filter=".brand-design">Dungeon Console App Game</a></li>
+                    <li><a href="#" class="btn btn-success" data-filter=".nature">Store Front Project</a></li>
+
+                </ul>
+
+                <div id="portfolio-content" class="fade-up  title-mb">
+
+                    <div class="col-md-3 brand-design">
+                        <div class="grid mask">
+                            <figure>
+                                <img class="img-responsive" src="/assets/img/portfolio/folio01.jpg" alt="">
+                                <figcaption>
+                                    <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
+                                    <a href="assets/img/portfolio/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
+                                    <h5>PROJECT ONE</h5>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 nature">
+                        <div class="grid mask">
+                            <figure>
+                                <img class="img-responsive" src="/assets/img/portfolio/folio02.jpg" alt="">
+                                <figcaption>
+                                    <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
+                                    <a href="assets/img/portfolio/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
+                                    <h5>PROJECT TWO</h5>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Freelancing -->
+
+        <section id="pricing" class="page-section container">
+            <h1 class="fade-down divider-spacer centered section-title">Free Lance Work</h1>
+
+            <div class="col-md-4">
+                <div class="panel panel-success flip-in">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Basic</h4>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead"><strong>$150</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>5 Plugins/Extensions</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>5 Pages</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>Responsive Design</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success" href="#">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel-success flip-in">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Standard</h4>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead"><strong>$250</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>10 Pages</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>Responsive Design</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>6 Plugins/Extentions</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success" href="#">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel-success flip-in">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Premium</h4>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead"><strong>$350</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>12 Pages</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>Design Customization</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>Responsive Design</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i>10 Plugins/Extensions
+                        <li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success" href="#">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-divider textdivider divider6">
+            <div class="container">
+                <h1 class="fade-down section-title">CRAFTED IN KANSAS CITY, MO.</h1>
+                <hr>
+                <div class="fade-up">
+                    <p>Kansas City, Missouri</p>
+
+                </div>
+            </div>
+        </section>
+
+
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+
+</body>

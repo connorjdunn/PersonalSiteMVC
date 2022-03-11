@@ -143,11 +143,13 @@
     <Content Include="Content\img\apple-touch-icon-72x72.png" />
     <Content Include="Content\img\apple-touch-icon.png" />
     <Content Include="Content\img\avatar.png" />
+    <Content Include="Content\img\benjamin-white-dl8REOo_BXU-unsplash.jpg" />
     <Content Include="Content\img\bg\bg1.jpg" />
     <Content Include="Content\img\bg\bg2.jpg" />
     <Content Include="Content\img\bg\bg3.jpg" />
     <Content Include="Content\img\bg\bg4.jpg" />
     <Content Include="Content\img\bg\bg5.jpg" />
+    <Content Include="Content\img\colton-sturgeon-FiCPutl_aog-unsplash %281%29.jpg" />
     <Content Include="Content\img\favicon.ico" />
     <Content Include="Content\img\header_bg.jpg" />
     <Content Include="Content\img\iphone.png" />
@@ -157,6 +159,8 @@
     <Content Include="Content\img\logo\logo3.png" />
     <Content Include="Content\img\logo\logo4.png" />
     <Content Include="Content\img\macbook.png" />
+    <Content Include="Content\img\matthew-deltoro-LdFvvpjnB2A-unsplash.jpg" />
+    <Content Include="Content\img\MattLinksPage.jpg" />
     <Content Include="Content\img\overlays\01.png" />
     <Content Include="Content\img\overlays\02.png" />
     <Content Include="Content\img\overlays\03.png" />
@@ -190,18 +194,12 @@
     <Content Include="Content\img\portfolio\folio16.jpg" />
     <Content Include="Content\img\portfolio\folio17.jpg" />
     <Content Include="Content\img\portfolio\folio18.jpg" />
+    <Content Include="Content\img\Screenshot 2022-03-03 220640.png" />
     <Content Include="Content\img\team\team01.jpg" />
     <Content Include="Content\img\team\team02.jpg" />
     <Content Include="Content\img\team\team03.jpg" />
     <Content Include="Content\img\team\team04.jpg" />
-    <Content Include="Content\js\bootstrap.js" />
-    <Content Include="Content\js\init.js" />
-    <Content Include="Content\js\interact.js" />
-    <Content Include="Content\js\jquery.min.js" />
-    <Content Include="Content\js\modernizr.custom.js" />
-    <Content Include="Content\js\plugins.js" />
-    <Content Include="Content\js\retina.js" />
-    <Content Include="Content\js\video.js" />
+    <Content Include="Content\img\ZakPFP.jpeg" />
     <Content Include="Content\Original_Content\bootstrap-theme.css" />
     <Content Include="Content\Original_Content\bootstrap-theme.min.css" />
     <Content Include="Content\Original_Content\bootstrap.css" />
@@ -210,8 +208,15 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\js\bootstrap.js" />
+    <Content Include="Scripts\js\init.js" />
+    <Content Include="Scripts\js\interact.js" />
+    <Content Include="Scripts\js\jquery.min.js" />
+    <Content Include="Scripts\js\modernizr.custom.js" />
+    <Content Include="Scripts\js\plugins.js" />
+    <Content Include="Scripts\js\retina.js" />
+    <Content Include="Scripts\js\validation.js" />
+    <Content Include="Scripts\js\video.js" />
     <Content Include="_Archive\assets\css\animate.css" />
     <Content Include="_Archive\assets\css\bootstrap.css" />
     <Content Include="_Archive\assets\css\elusive-webfont.css" />
@@ -396,17 +401,6 @@
     <Content Include="Content\Original_Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\Original_Content\bootstrap.css.map" />
     <Content Include="Content\Original_Content\bootstrap.min.css.map" />
-    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.3.1.js" />
-    <Content Include="Scripts\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -418,7 +412,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="_Archive\assets\fonts\Elusive-Icons.eot" />
@@ -452,9 +445,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="configs\AppSecretKeys.config" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Views\Home\Resume.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
