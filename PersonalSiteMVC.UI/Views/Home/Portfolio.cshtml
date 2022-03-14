@@ -1,7 +1,96 @@
-﻿
-@{
-    ViewBag.Title = "Portfolio";
-}
+﻿@*<div id="headerwrap" name="home">
+        <header class="clearfix"></header>
+    </div>*@
 
-<h2>Portfolio</h2>
+<section id="currently-viewing" class="container section-divider textdivider divider2">
+    <div class="container">
+        <div class="single-project-slideshow fade-down">
+            <div id="basic-carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <h2 class="fade-down centered">FED 1 Studio Project</h2>
+                    </div>
+                    <div class="item">
+                        <h2 class="fade-down centered">Dungeon App Project</h2>
+                    </div>
+                    <div class="item">
+                        <h2 class="fade-down centered">Store Front</h2>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#basic-carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#basic-carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!--  CONTENT WRAPPER -->
+<div id="content-wrapper">
+
+    <!-- ==== ABOUT ==== -->
+    <div class="container" id="about" name="about">
+        <div class="row white">
+            <h1 class="fade-down centered">Portfolio</h1>
+            <hr>
+
+            <div class="fade-up col-md-12">
+                <p style="color: black; font-size:large;">Below are a few of the projects I worked on while attending Centriq's Full Stack Web Development program! I hope you enjoy viewing them as much as I enjoyed creating them. </p>
+
+            </div><!-- row -->
+        </div>
+
+        <!-- ==== SECTION DIVIDER2 -->
+        <section class="section-divider textdivider divider2">
+            <div class="container">
+                <h1 class="fade-down">PROJECTS</h1>
+                <hr class="title-mb">
+                <div id="portfolio-carousel">
+                    <!-- PORTFOLIO IMAGE 1 -->
+                    <div class="fade-up col-md-4 ">
+                        <div class="grid mask">
+                            <figure>
+                                <a href="https://github.com/connorjdunn/DungeonApp">
+                                    <img class="img-responsive" src="~/Content/img/portfolio/anastase-maragos-ZIOv-FNBBOc-unsplash.jpg" alt="">
+                                </a>
+                                <figcaption>
+                                    <a href="https://github.com/connorjdunn/DungeonApp" target="blank" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
+                                    <h4 style="color: white;">Dungeon App</h4>
+                                    </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <!-- PORTFOLIO IMAGE 2 -->
+                    <div class="fade-up col-md-4">
+                        <div class="grid mask">
+                            <figure>
+                                <img class="img-responsive" src="~/Content/img/portfolio/spencer-davis-Y4soWrHcCAI-unsplash (1).jpg" alt="" width="400" height="300">
+                                <figcaption>
+                                    <a href="https://github.com/connorjdunn/FED1StudioProject" target="blank" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
+                                    <h4 style="color: white;">Motorcycle Mechanic Institute</h4>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div><!-- /col -->
+                    
+                    <!-- PORTFOLIO IMAGE 3 -->
+                    <div class="fade-up col-md-4">
+                        <div class="grid mask">
+                            <figure>
+                                <img class="img-responsive" src="~/Content/img/portfolio/jeff-ochoa-53S-oN_r9SU-unsplash.jpg" alt="">
+                                <figcaption>
+                                    <a href="https://github.com/connorjdunn/StoreFrontLab" target="blank" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
+                                    <h5>Climbers Club</h5>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div><!-- /col -->
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

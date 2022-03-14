@@ -32,5 +32,20 @@ namespace PersonalSiteMVC.UI.Controllers
         {
             return View();
         }
+
+        public ActionResult Fed1Studio()
+        {
+            return View();
+        }
+
+        public ActionResult DungeonApp()
+        {
+            return View();
+        }
+
+        public ActionResult StoreFront()
+        {
+            return View();
+        }
     }
 }

@@ -153,6 +153,7 @@
     <Content Include="Content\img\favicon.ico" />
     <Content Include="Content\img\header_bg.jpg" />
     <Content Include="Content\img\iphone.png" />
+    <Content Include="Content\img\jordan-grider-lLP7s9Rpw7E-unsplash.jpg" />
     <Content Include="Content\img\loading.GIF" />
     <Content Include="Content\img\logo\logo1.png" />
     <Content Include="Content\img\logo\logo2.png" />
@@ -176,25 +177,14 @@
     <Content Include="Content\img\overlays\13.png" />
     <Content Include="Content\img\overlays\14.png" />
     <Content Include="Content\img\overlays\15.png" />
-    <Content Include="Content\img\portfolio\folio01.jpg" />
-    <Content Include="Content\img\portfolio\folio02.jpg" />
-    <Content Include="Content\img\portfolio\folio03.jpg" />
-    <Content Include="Content\img\portfolio\folio04.jpg" />
-    <Content Include="Content\img\portfolio\folio05.jpg" />
-    <Content Include="Content\img\portfolio\folio06.jpg" />
-    <Content Include="Content\img\portfolio\folio07.jpg" />
-    <Content Include="Content\img\portfolio\folio08.jpg" />
-    <Content Include="Content\img\portfolio\folio09.jpg" />
-    <Content Include="Content\img\portfolio\folio10.jpg" />
-    <Content Include="Content\img\portfolio\folio11.jpg" />
-    <Content Include="Content\img\portfolio\folio12.jpg" />
-    <Content Include="Content\img\portfolio\folio13.jpg" />
-    <Content Include="Content\img\portfolio\folio14.jpg" />
-    <Content Include="Content\img\portfolio\folio15.jpg" />
-    <Content Include="Content\img\portfolio\folio16.jpg" />
-    <Content Include="Content\img\portfolio\folio17.jpg" />
-    <Content Include="Content\img\portfolio\folio18.jpg" />
+    <Content Include="Content\img\portfolio\anastase-maragos-ZIOv-FNBBOc-unsplash.jpg" />
+    <Content Include="Content\img\portfolio\jeff-ochoa-53S-oN_r9SU-unsplash.jpg" />
+    <Content Include="Content\img\portfolio\spencer-davis-Y4soWrHcCAI-unsplash %281%29.jpg" />
+    <Content Include="Content\img\Screenshot %2819%29.png" />
+    <Content Include="Content\img\Screenshot %2820%29.png" />
+    <Content Include="Content\img\Screenshot %2822%29.png" />
     <Content Include="Content\img\Screenshot 2022-03-03 220640.png" />
+    <Content Include="Content\img\spencer-davis-Y4soWrHcCAI-unsplash.jpg" />
     <Content Include="Content\img\team\team01.jpg" />
     <Content Include="Content\img\team\team02.jpg" />
     <Content Include="Content\img\team\team03.jpg" />
@@ -446,10 +436,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="configs\AppSecretKeys.config" />
+    <Content Include="Content\ConnorDunnResumeIT.pdf" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\Fed1Studio.cshtml" />
+    <Content Include="Views\Home\DungeonApp.cshtml" />
+    <Content Include="Views\Home\StoreFront.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
